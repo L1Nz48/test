@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ภาพถ่ายปฏิบัติงาน</title>
+    <link rel="stylesheet" href="css/photo.css" />
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropdown-btn">☰</button>
+        <div class="dropdown-menu">
+            <a href="home.html">หน้าแรก</a>
+            <a href="time.html">ระยะเวลาปฏิบัติงาน</a>
+            <a href="photo.html">ภาพถ่ายปฏิบัติงาน</a>
+            <div class="photo">
+                <a href="#">รายงานการฝึกงาน</a>
+                <div class="sub-dropdown">
+                    <a href="train/week1.html">สัปดาห์1</a>
+                    <a href="train/week2.html">สัปดาห์2</a>
+                    <a href="train/week3.html">สัปดาห์3</a>
+                    <a href="train/week4.html">สัปดาห์4</a>
+                    <a href="train/week5.html">สัปดาห์5</a>
+                    <a href="train/week6.html">สัปดาห์6</a>
+                    <a href="train/week7.html">สัปดาห์7</a>
+                    <a href="train/week8.html">สัปดาห์8</a>
+                    <a href="train/week9.html">สัปดาห์9</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="banner">
+            <h1></h1>
+        </div>
+    </header>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 1</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week1-slider">
+            <button class="prev" onclick="prevSlide('week1-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 1 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 1 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 1 as needed -->
+
+            <!-- Dots for navigation -->
+            <div class="dots-container" id="dots-week1"></div>
+
+            <button class="next" onclick="nextSlide('week1-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 2</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week2-slider">
+            <button class="prev" onclick="prevSlide('week2-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 2 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/CABLES.png" alt="สัปดาห์ที่ 2 - รูปที่ 2" />
+            </div>
+
+            <!-- Add more slides for week 2 as needed -->
+            <button class="next" onclick="nextSlide('week2-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 3</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week3-slider">
+            <button class="prev" onclick="prevSlide('week3-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 3 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/CABLES.png" alt="สัปดาห์ที่ 3 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 3 as needed -->
+            <button class="next" onclick="nextSlide('week3-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 4</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week4-slider">
+            <button class="prev" onclick="prevSlide('week4-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 4 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 4 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 4 as needed -->
+            <button class="next" onclick="nextSlide('week4-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 5</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week5-slider">
+            <button class="prev" onclick="prevSlide('week5-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 5 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 5 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 5 as needed -->
+            <button class="next" onclick="nextSlide('week5-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 6</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week6-slider">
+            <button class="prev" onclick="prevSlide('week6-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 6 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 6 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 6 as needed -->
+            <button class="next" onclick="nextSlide('week6-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 7</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week7-slider">
+            <button class="prev" onclick="prevSlide('week7-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 7 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 7 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 7 as needed -->
+            <button class="next" onclick="nextSlide('week7-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 8</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week8-slider">
+            <button class="prev" onclick="prevSlide('week8-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 8 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 8 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 8 as needed -->
+            <button class="next" onclick="nextSlide('week8-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <div style="
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        background-color: black;
+        font-size: 20px;
+      ">
+        <a>สัปดาห์ที่ 9</a>
+    </div>
+    <section class="gallery">
+        <div class="week-slider" id="week9-slider">
+            <button class="prev" onclick="prevSlide('week9-slider')">
+                &#10094;
+            </button>
+            <div class="slide">
+                <img src="img/me.JPG" alt="สัปดาห์ที่ 9 - รูปที่ 1" />
+            </div>
+            <div class="slide">
+                <img src="img/train.png" alt="สัปดาห์ที่ 9 - รูปที่ 2" />
+            </div>
+            <!-- Add more slides for week 9 as needed -->
+            <button class="next" onclick="nextSlide('week9-slider')">
+                &#10095;
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>
+            &copy; 2025 IT Apprentice | Zeer Property Public Company Limited | All
+            Rights Reserved
+        </p>
+    </footer>
+
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
